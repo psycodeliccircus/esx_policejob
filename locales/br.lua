@@ -1,29 +1,29 @@
 Locales['br'] = {
-  -- Cloackroom
+  -- Vestiário
   ['cloakroom'] = 'Vestiário',
   ['citizen_wear'] = 'Roupa casual',
   ['police_wear'] = 'Uniforme da Polícia',
-  ['sheriff_wear'] = 'sheriff Outfit',
-  ['lieutenant_wear'] = 'Swatt outfit ',
-  ['gilet_wear'] = 'orange reflective jacket',
-  ['bullet_wear'] = 'bulletproof vest',
-  ['no_outfit'] = 'there\'s no uniform that fits you!',
+  ['sheriff_wear'] = 'roupa de xerife',
+  ['lieutenant_wear'] = 'roupa da Swat ',
+  ['gilet_wear'] = 'jaqueta reflexiva laranja',
+  ['bullet_wear'] = 'colete a prova de balas',
+  ['no_outfit'] = 'Não há uniforme que se adeque a você!',
   ['open_cloackroom'] = 'Pressione ~INPUT_CONTEXT~ para se trocar',
-  -- Armory
-  ['remove_object'] = 'take object',
-  ['deposit_object'] = 'deposit object',
+  -- Arsenal
+  ['remove_object'] = 'pegue objeto',
+  ['deposit_object'] = 'objeto de depósito',
   ['get_weapon'] = 'Pegar arma',
   ['put_weapon'] = 'Entregar arma',
   ['buy_weapons'] = 'Comprar armas',
   ['armory'] = 'Arsenal',
   ['open_armory'] = 'Pressione ~INPUT_CONTEXT~ para acessar o arsenal',
-  -- Vehicles
+  -- Veículos
   ['vehicle_menu'] = 'Veículo',
   ['vehicle_out'] = 'Já existe um carro fora da garagem',
   ['vehicle_spawner'] = 'Pressione ~INPUT_CONTEXT~ para escolher um veículo',
   ['store_vehicle'] = 'Pressione ~INPUT_CONTEXT~ para guardar o veículo',
   ['service_max'] = 'Maximo de oficiais em serviço : ',
-  -- Action Menu
+  -- Menu Ação
   ['citizen_interaction'] = 'Interagir com o cidadão',
   ['vehicle_interaction'] = 'Interagir com o veículo',
   ['object_spawner'] = 'Interagir com as rodovias',
@@ -31,62 +31,61 @@ Locales['br'] = {
   ['id_card'] = 'Carteira de identidade',
   ['search'] = 'Procurar',
   ['handcuff'] = 'Algemar / Soltar',
-  ['drag'] = 'drag',
+  ['drag'] = 'arrastar',
   ['put_in_vehicle'] = 'Colocar no veículo',
-  ['out_the_vehicle'] = 'take out of vehicle',
+  ['out_the_vehicle'] = 'retire do veículo',
   ['fine'] = 'Multa',
-  ['license_check'] = 'manage license',
-  ['license_revoke'] = 'revoke license',
-  ['license_revoked'] = 'your ~b~%s~s~ has been ~y~revoked~s~!',
-  ['licence_you_revoked'] = 'you revoked a ~b~%s~s~ which belonged to ~y~%s~s~',
+  ['license_check'] = 'gerenciar licença',
+  ['license_revoke'] = 'revogar licença',
+  ['license_revoked'] = 'sua ~b~%s~s~ foi ~y~revogado(a)~s~!',
+  ['licence_you_revoked'] = 'você revogou um ~b~%s~s~ que pertencia a ~y~%s~s~',
   ['no_players_nearby'] = 'Nenhum jogador nas proximidades',
-  -- Vehicle interaction
+  -- Interação veículo
   ['vehicle_info'] = 'Informações',
   ['pick_lock'] = 'Trancar veículo',
   ['vehicle_unlocked'] = 'Veículo ~g~destravado~s~',
   ['no_vehicles_nearby'] = 'Nenhum veículo nas proximidades',
-  ['impound'] = 'impound vehicle',
-  ['impound_prompt'] = 'press ~INPUT_CONTEXT~ to cancel the ~y~impound~s~',
-  ['impound_canceled'] = 'you canceled the impound',
-  ['impound_canceled_moved'] = 'the impound has been canceled because the vehicle moved',
-  ['impound_successful'] = 'you have impounded the vehicle',
-  ['search_database'] = 'vehicle information',
-  ['search_database_title'] = 'vehicle information - search with registration number',
-  ['search_database_error_invalid'] = 'that is ~r~not~s~ a ~y~valid~s~ registration number',
-  ['search_database_error_not_found'] = 'that ~y~registration number~s~ is ~r~not~s~ registered to an vehicle!',
-  ['search_database_found'] = 'the vehicle is ~y~registered~s~ to ~b~%s~s~',
-  -- Traffic interaction
+  ['impound'] = 'apreender o veículo',
+  ['impound_prompt'] = 'Pressione ~INPUT_CONTEXT~ para cancelar a ~y~apreensão~s~',
+  ['impound_canceled'] = 'você cancelou a apreensão',
+  ['impound_canceled_moved'] = 'o montante foi cancelado porque o veículo mudou',
+  ['impound_successful'] = 'você confiscou o veículo',
+  ['search_database'] = 'informação do veículo',
+  ['search_database_title'] = 'informações do veículo - pesquisa com número de registro',
+  ['search_database_error_invalid'] = 'que não é um número de registro válido',
+  ['search_database_error_not_found'] = 'esse número de registro não está registrado em um veículo!',
+  ['search_database_found'] = 'o veículo é ~y~registrado~s~ para ~b~%s~s~',
+  -- Interação de tráfego
   ['traffic_interaction'] = 'Interagir com as rodovias',
   ['cone'] = 'Cones',
   ['barrier'] = 'Barreira',
   ['spikestrips'] = 'Fita de pregos',
   ['box'] = 'Caixa',
   ['cash'] = 'Caixa de dinheiro',
-  -- ID Card Menu
+  -- Menu do cartão de identificação
   ['name'] = 'Nome : ',
-  ['bac'] = 'bAC : ',
-  -- Body Search Menu
+  ['bac'] = 'BAC : ',
+  -- Menu de pesquisa corporal
   ['confiscate_dirty'] = 'Confiscar dinheiro sujo : $',
   ['guns_label'] = '--- Armas ---',
   ['confiscate'] = 'Confiscar ',
   ['inventory_label'] = '--- Inventário ---',
   ['confiscate_inv'] = 'Confiscar x',
-
   ['traffic_offense'] = 'Infrações de transito',
   ['minor_offense'] = 'Infração leve',
   ['average_offense'] = 'Infração média',
   ['major_offense'] = 'Infração grave',
   ['fine_total'] = 'Multa : ',
-  -- Vehicle Info Menu
+  -- Menu de Informações do Veículo
   ['plate'] = 'Placa: ',
   ['owner_unknown'] = 'Proprietário : Desconhecido',
   ['owner'] = 'Proprietário : ',
-  -- Weapons Menus
+  -- Menus de Armas
   ['get_weapon_menu'] = 'Arsenal - Pegar arma',
   ['put_weapon_menu'] = 'Arsenal - Entregar arma',
   ['buy_weapon_menu'] = 'Arsenal - Comprar armas',
   ['not_enough_money'] = 'Você não tem dinheiro suficiente',
-  -- Boss Menu
+  -- menu de patrão
   ['take_company_money'] = 'Retirar o dinheiro da empresa',
   ['deposit_money'] = 'Depositar dinheiro',
   ['amount_of_withdrawal'] = 'Quantidade de retirada',
@@ -96,7 +95,7 @@ Locales['br'] = {
   -- Misc
   ['remove_prop'] = 'Pressione ~INPUT_CONTEXT~ para remover o objeto',
   ['map_blip'] = 'Departamento de Polícia',
-  -- Notifications
+  -- Notificações
   ['from'] = '~s~ de ~b~',
   ['you_have_confinv'] = 'Você confiscou ~y~x',
   ['confinv'] = '~s~ confiscado de você ~y~x',
